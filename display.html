@@ -12,20 +12,37 @@
             c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
         })(document);
     </script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body{
+            background-image: url("images/bg1.jpg");
+        }
+    </style>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/icofont.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icofont.css">
+    <link rel="stylesheet" href="css/sidebar/style.default.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"content="IE-edge">
     <title>YOYO</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="start(url)" style="background-image:  url(images/bg1.jpg); background-repeat: no-repeat;background-size: cover;background-attachment: fixed">
-<p id="result"></p>
-<div style="margin-left:450px;margin-right:450px;margin-top:170px;padding: 30px">
-    <form action="display2.html" method=GET>
-        <label>Linkedin Profile Url</label>
-        <input type="text" id="url" name="url" placeholder="Your name..">
-        <input type="submit" value="Fetch Analaysis" >
-    </form>
+<body onload="start(url)">
+<p style="color: black" id="result"></p>
+<div class="row" style="padding-top: 130px;font-size:15px">
+    <div class="col-md-4 col-1"></div>
+    <div class="col-md-4 col-10"  style="border-radius: 5px;
+    background-color: #f2f2f2;padding: 20px">
+        <form action="display2.html" method=GET>
+            <label>Linkedin Profile Url</label>
+            <input type="text" id="url" name="url" placeholder="LinkedIn Url">
+            <input type="submit" value="Create Analysis">
+        </form>
+    </div>
+    <div class="col-md-4 col-1"></div>
 </div>
 </body>
 <script>
