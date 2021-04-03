@@ -1,5 +1,6 @@
 
-input[type=text], select {
+input[type=text], select
+{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -20,7 +21,8 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type=submit]:hover
+{
     background-color:#2b90d9;
 }
 
@@ -31,13 +33,11 @@ input[type=submit]:hover {
     margin-left: 20px;
     margin-top:10px;
 }
-@media (max-width:400px){
-#i1{
+@media (max-width:400px)
+{#i1{
     border-radius: 50%;
     width:300px;
     margin-left:0px;
-
-
 }}
 #s1{
     text-transform: uppercase;
@@ -142,4 +142,21 @@ i5{
 @media (max-width: 400px){
     #i2{
         margin-top:-40px;
+    }}
+#i10{
+    text-align: center; font-size: 70px;text-transform: uppercase; color: #005cbf;
+
+}
+@media (max-width: 400px){
+    #i10{
+        text-transform: uppercase;
+        color: #005cbf;
+        font-size:30px;
+    }}
+#i11{
+    margin-top: 0px;
+}
+@media (max-width: 400px){
+    #i11{
+        margin-top:-60px;
     }}
